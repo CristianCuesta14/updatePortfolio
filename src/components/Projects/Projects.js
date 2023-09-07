@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import imgPI from "../../Assets/imgPi.png";
 import profinder from "../../Assets/bgProfinder.png";
 import bitsOfCode from "../../Assets/portfolio.png";
+import localstorage from "../../Assets/local2.png";
 
 function Projects() {
   return (
@@ -39,6 +40,16 @@ function Projects() {
               En mi portafolio, podrás explorar los proyectos en los que he trabajado, destacando mi experiencia en JavaScript, React.Js, Node.Js HTML y CSS, así como otras tecnologías relevantes."
               ghLink="https://github.com/CristianCuesta14/portafolio_web"
               demoLink="#"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={localstorage}
+              isBlog={false}
+              title="LocalStorage"
+              description="Una aplicación web simple de almacenamiento de películas construida con HTML, CSS y JavaScript puro. Esta aplicación te permite agregar, mostrar y eliminar películas, y almacena la lista de películas en el almacenamiento local del navegador."
+              ghLink="https://github.com/CristianCuesta14/localstorage"
+              demoLink="https://localstorage-sigma.vercel.app/?"
             />
           </Col>
 
