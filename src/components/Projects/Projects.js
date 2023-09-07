@@ -14,16 +14,16 @@ function Projects() {
         <h1 className="project-heading">
           Mis Trabajos <strong className="purple">Recientes </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        {/* <p style={{ color: "white" }}>
           Estos son Algunos de mis trabajos recientes
-        </p>
+        </p> */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={profinder}
               isBlog={false}
               title="ProFinder"
-              description="ProFinder es una web que conecta a profesionales con potenciales clientes. Tendrás tu propia dashboard, ya sea como profesional, cliente o administrador. ProFinder está desarrollada en el frontend con React, Redux, JavaScript y ChakraUI, mientras que en el backend se utiliza Node.js, Express y PostgreSQL. ProFinder cuenta con funcionalidades como inicio de sesión con Google, dark mode, filtros, Mercado Pago y muchas más."
+              description="ProFinder es una web que conecta a profesionales con potenciales clientes. Tendrás tu propia dashboard, ya sea como profesional, cliente o administrador. ProFinder está desarrollada en el frontend con React, Redux, JavaScript y ChakraUI, mientras que en el backend se utiliza Node.js, Express y PostgreSQL. ProFinder cuenta con funcionalidades como inicio de sesión con Google, dark mode, filtros, Mercado Pago y muchas más. Actualmente no tiene soporte (fue el proyecto de graduacion para 'Henry' "
               ghLink="https://github.com/CristianCuesta14/Profinder-"
               demoLink="https://profinder-client.vercel.app/"
             />

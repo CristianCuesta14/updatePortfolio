@@ -10,7 +10,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import { FaGithub, FaLinkedin, FaWhatsapp  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -86,7 +86,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resumen
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Certificados
               </Nav.Link>
             </Nav.Item>
 
@@ -119,7 +119,6 @@ function NavBar() {
                 <FaWhatsapp style={{ fontSize: "1.2em" }} />{" "}
               </Button>
             </Nav.Item>
-
           </Nav>
         </Navbar.Collapse>
       </Container>
