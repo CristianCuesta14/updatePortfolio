@@ -6,6 +6,7 @@ import imgPI from "../../Assets/imgPi.png";
 import profinder from "../../Assets/bgProfinder.png";
 import bitsOfCode from "../../Assets/portfolio.png";
 import localstorage from "../../Assets/local2.png";
+import test from "../../Assets/test.png";
 
 function Projects() {
   return (
@@ -50,6 +51,17 @@ function Projects() {
               description="Una aplicación web simple de almacenamiento de películas construida con HTML, CSS y JavaScript puro. Esta aplicación te permite agregar, mostrar y eliminar películas, y almacena la lista de películas en el almacenamiento local del navegador."
               ghLink="https://github.com/CristianCuesta14/localstorage"
               demoLink="https://localstorage-sigma.vercel.app/?"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={test}
+              isBlog={false}
+              title="Pruebas Automatizadas"
+              description="Proyecto de Test de Automatización Este repositorio contiene un proyecto de automatización diseñado para facilitar y agilizar diversas tareas a través de la automatización de procesos. El objetivo principal de este proyecto es mejorar la eficiencia y la calidad al reducir la intervención manual en actividades repetitivas."
+              ghLink="https://github.com/CristianCuesta14/cypress"
+              demoLink="#"
             />
           </Col>
 

@@ -15,12 +15,15 @@ function Home2() {
               DÉJAME <span className="purple"> PRESENTARME </span>
             </h1>
             <p className="home-about-body">
-              Me enamoré de la programación y he aprendido al menos algo,
-              creo... 🤷‍♂️
+              Me enamoré de la programación y he adquirido conocimientos
+              sólidos.
               <br />
-              Tengo Conocimientos en
+              En
               <i>
-                <b className="purple"> Javascript, React.Js, Node.Js.</b>
+                <b className="purple">
+                  {" "}
+                  Javascript, React.Js, Node.Js, HTML, CSS, Gitflow, Git.
+                </b>
               </i>
               <br /> <br />
               Soy una persona con una gran capacidad comunicativa, me gusta

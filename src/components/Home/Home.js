@@ -4,14 +4,17 @@ import homeLogo from "../../Assets/fotoHome.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
+import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-         <Particle />   
+        <Particle />
         <Container className="home-content">
-          <Row> 
+          <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hola!{" "}
@@ -35,7 +38,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                  style={{borderRadius: "20%", maxHeight: "450px" }}
+                style={{ borderRadius: "20%", maxHeight: "450px" }}
               />
             </Col>
           </Row>
